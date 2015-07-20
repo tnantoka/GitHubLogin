@@ -1,0 +1,8 @@
+{
+  "name": "GitHubLogin",
+  "version": "0.1.0",
+  "main": "main.js",
+  "dependencies": {
+    "superagent": "^1.2.0"
+  }
+}

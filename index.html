@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GitHub Login</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <h1 class="text-center">GitHub Login</h1>
+      <div class="row">
+        <div class="col-sm-4 col-sm-offset-4 text-center">
+          <a href="#" class="btn btn-primary btn-lg btn-block js-sign-in">Sign in with GitHub</a>
+          <img class="js-avatar hidden">
+          <p class="js-username hidden">
+          <p><a href="#" class="btn btn-default js-sign-out hidden">Sign out</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!--script src="bower_components/jquery/dist/jquery.min.js"></script-->
+    <script>window.jQuery = window.$ = require('./bower_components/jquery/dist/jquery.min.js');</script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="auth.js"></script>
+  </body>
+</html>
+

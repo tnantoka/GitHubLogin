@@ -1,0 +1,6 @@
+{
+  "name": "GitHubLogin",
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

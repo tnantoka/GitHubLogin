@@ -1,0 +1,10 @@
+.DS_Store
+*~
+.*.sw*
+
+node_modules
+bower_components
+
+options.js
+GitHubLogin-darwin-x64
+
