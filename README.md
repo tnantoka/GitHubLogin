@@ -22,7 +22,7 @@ $ electron .
 
 ```
 $ npm install electron-packager -g
-$ electron-packager . GitHubLogin --platform=darwin --arch=x64 --version=0.30.0 —overwrite
+$ electron-packager . GitHubLogin --platform=darwin --arch=x64 --version=0.30.0 --overwrite
 $ open GitHubLogin-darwin-x64/GitHubLogin.app/
 ```
 
